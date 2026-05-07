@@ -1,0 +1,139 @@
+/* 🌿 FONDO GENERAL */
+body {
+  background-color: #F5E6D3;
+  font-family: Arial, sans-serif;
+}
+
+/* 🔹 INTRO */
+.intro {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* Título grande y en negrita */
+.intro h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* 👉 palabra "padres" en rosado */
+.intro h2 span {
+  color: #ff4f81; /* rosado */
+}
+
+/* espacio para imagen debajo */
+.intro {
+  margin-bottom: 40px;
+}
+
+/* 🔹 CARDS */
+.card {
+  background-color: white;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* títulos de cards en rosado fucsia */
+.card h3 {
+  color: #e91e63;
+  font-weight: bold;
+}
+
+/* centrar contenido */
+.card-body {
+  text-align: center;
+}
+
+/* 🔹 FEATURES */
+.features {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+/* título igual estilo */
+.features h2 {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* GRID (2 arriba, 1 abajo) */
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+/* el tercero abajo centrado */
+.feature:nth-child(3) {
+  grid-column: span 2;
+}
+
+/* cada feature */
+.feature {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* ICONOS */
+.feature i {
+  display: block;
+  font-size: 35px;
+  color: #e91e63;
+  margin-bottom: 10px;
+}
+
+/* títulos */
+.feature h4 {
+  color: #e91e63;
+  font-weight: bold;
+}
+/* NAVBAR */
+.navbar {
+  background-color: rgb(196, 68, 85);
+  padding: 15px 30px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* CONTENEDOR */
+.nav-container {
+  color: #e91e63;
+  display: flex;
+  justify-content: space-between; /* logo izquierda, menú derecha */
+  align-items: center;
+}
+
+/* LOGO */
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.logo img {
+  width: 35px;
+  margin-right: 10px;
+}
+
+/* MENÚ */
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+/* HOVER */
+.menu a:hover {
+  color: #e91e63;
+}
